@@ -174,7 +174,7 @@ class Todo
 end
 
 
-puts "\033[36m Welcome to the todo app, what would you like to do?\033[0m\n"
+puts "\033[44m Welcome to the todo app, what would you like to do?\033[0m\n"
 Todo.list
 while true
   puts "n - make a new todo"
