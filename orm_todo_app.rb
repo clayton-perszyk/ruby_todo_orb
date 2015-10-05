@@ -115,7 +115,7 @@ class Todo
       end
     else
       if options[:want_completed_list]
-        puts "\033[1;36m Nothing completed, get busy!\033[0m\n"
+        puts "\033[1;36m Nothing completed, get busy!!!\033[0m\n"
       else
         puts "\033[1;36m Nothing todo, lucky you!\033[0m\n"
       end
